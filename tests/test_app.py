@@ -1,5 +1,5 @@
 # tests/test_app.py
-from app import app
+from ci_cd_pipeline_app.app import app
 
 def test_home():
     client = app.test_client()
